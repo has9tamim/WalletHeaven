@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newfeds.walletheaven">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.newfeds.walletheaven.activities.MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.newfeds.walletheaven.activities.NewMasterPassword"
+            android:noHistory="true" />
+        <activity android:name="com.newfeds.walletheaven.activities.Dashboard" />
+        <activity
+            android:name="com.newfeds.walletheaven.activities.VerifyMasterPassword"
+            android:noHistory="true" />
+        <activity android:name="com.newfeds.walletheaven.activities.WalletList" />
+        <activity android:name="com.newfeds.walletheaven.activities.Credits" />
+        <activity android:name="com.newfeds.walletheaven.activities.Settings" />
+        <activity
+            android:name="com.newfeds.walletheaven.activities.WeblistActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.newfeds.walletheaven.activities.AddWebCredActivity"
+            android:noHistory="true" />
+        <activity android:name="com.newfeds.walletheaven.activities.ShowWebCredsActivity" android:noHistory="true"></activity>
+    </application>
+
+</manifest>
